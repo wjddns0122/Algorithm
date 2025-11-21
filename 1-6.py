@@ -68,7 +68,7 @@
 
 #     print(total)
 
-start, end = list(map(int, input().split()))
+# start, end = list(map(int, input().split()))
 # count = 0
 
 
@@ -101,3 +101,53 @@ start, end = list(map(int, input().split()))
 #         ans += 1
 
 # print(ans)
+
+# arr = [
+# 	list(map(int, input().split()))
+# 	for _ in range(3)
+# ]
+
+# for i in range(3):
+#     for j in range(3):
+#         arr[i][j] *= 3
+	
+# for row in arr:
+# 	for elem in row:
+# 		print(elem, end=" ")
+# 	print()
+
+
+# list1 = [
+#     list(map(int, input().split()))
+#     for _ in range(3)
+# ]
+
+# _ = input()
+
+# list2 = [
+#     list(map(int, input().split()))
+#     for _ in range(3)
+# ]
+
+# for i in range(3):
+#     for j in range(3):
+#         print(list1[i][j] * list2[i][j], end=" ")
+#     print()
+
+
+
+# N, M = map(int, input().split())  
+
+# mat1 = [list(map(int, input().split())) for _ in range(N)]
+
+
+# mat2 = [list(map(int, input().split())) for _ in range(N)]
+
+
+# for i in range(N):
+#     for j in range(M):
+#         if mat1[i][j] == mat2[i][j]:
+#             print(0, end=" ") 
+#         else:
+#             print(1, end=" ") 
+#     print()  # 한 줄 끝날 때마다 줄 바꿈
